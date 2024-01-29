@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JS tests</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<script type="text/javascript" src="./demo.js"></script>
+<body>
+    <div class="topInterface">
+        <h1>Basic javascript clicker</h1>
+        <p class="counter" id="scoreCounter">0</p>
+        <button class="topButton" id="funButton" onclick="myFunction()">click me</button>
+    </div>
+    <div class="bottomInterface">
+        <div class="values">
+            <p class="valueElement" id="clickValueElement">Click value: 1</p>
+            <p class="valueElement" id="intervalValueElement">Interval value: 0</p>
+        </div>
+        <button id="upgradeClick" onclick="upgradeClickValue()" style="display:none">Upgrade click value (10)</button>
+        <button id="upgradeInterval" onclick="upgradeIntervalValue()" style="display:none">Upgrade interval value (25)</button>
+    </div>
+</body>
+</html>
